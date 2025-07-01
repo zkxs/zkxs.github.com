@@ -18,6 +18,7 @@ bundle install
 To run the website
 
 ```shell
+cd docs
 # Run locally
 bundle exec jekyll serve
 # Run locally, but show drafts
