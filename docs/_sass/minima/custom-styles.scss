@@ -43,6 +43,10 @@
   gap: 4px;
 }
 
+.input-row * {
+  font-size: $base-font-size * 1.75;
+}
+
 input {
   font-family: $code-font-family;
   color: $table-text-color;
@@ -52,4 +56,8 @@ input {
 button {
   color: $table-text-color;
   background-color: $table-header-bg-color;
+}
+
+.error {
+  color: $error-color;
 }
