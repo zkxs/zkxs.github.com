@@ -36,3 +36,20 @@
 .hidden-group {
   display: none;
 }
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+input {
+  font-family: $code-font-family;
+  color: $table-text-color;
+  background-color: $code-background-color;
+}
+
+button {
+  color: $table-text-color;
+  background-color: $table-header-bg-color;
+}

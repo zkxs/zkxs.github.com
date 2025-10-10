@@ -88,6 +88,7 @@ Disallow: /
 
 User-agent: *
 Allow: /
+Disallow: /mictionary/
 Disallow: /vr/
 Disallow: /vrc/
 Disallow: /svg/

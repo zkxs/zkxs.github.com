@@ -1,0 +1,3 @@
+import init,{lookup,autocomplete}from"./mictionary.js";async function run(){await init(),window.lookup=lookup,window.autocomplete=autocomplete;const e=document.getElementById("input"),t=document.getElementById("definition"),s=new RegExp("{([^}]+)}","g");function n(){if(e.value){const n=lookup(e.value);if(n){const e=n.replaceAll(s,`<a href="javascript:setWord('$1')">$1</a>`);if(e.includes(`
+`)){const e=n.split(`
+`).map(e=>`<li>${e}</li>`).join("");t.innerHTML=`<ol>${e}</ol>`}else t.innerHTML=e}else t.innerHTML="<i>not a word</i>"}else t.innerHTML=""}function o(t){e.value=t,n()}window.setWord=o,e.addEventListener("input",n),document.getElementById("clear").addEventListener("click",()=>{e.value="",n()}),n()}run()
