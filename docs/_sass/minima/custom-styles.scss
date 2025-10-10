@@ -40,6 +40,7 @@
 .input-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 4px;
 }
 
@@ -51,6 +52,7 @@ input {
   font-family: $code-font-family;
   color: $table-text-color;
   background-color: $code-background-color;
+  width: 16rem;
 }
 
 button {
