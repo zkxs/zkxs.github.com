@@ -28,13 +28,13 @@ This page lists my specific hardware and software setup for running VR. This is 
 - 2x Valve Index Controllers
 - 4x Vive 2.0 Trackers
 - 5x Vive 3.0 Trackers
-- 3.5m x 3.3m playspace
+- 5x5m playspace
 
 ### Network
 
 - crappy old Dell running pfSense acting as a wired router
 - TP-Link AXE5400 acting as a wireless AP
-- 1000 Mbps down / 35 Mbps up cable internet
+- 1000 Mbps down / 1000 Mbps up fiber internet
 
 ## Software
 
